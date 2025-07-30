@@ -2,6 +2,8 @@
 
 This project implements a comprehensive machine learning solution for predicting passenger transportation outcomes in the Spaceship Titanic dataset. The implementation features advanced hyperparameter optimization using Optuna, multiple classifier training, and ensemble methods including Voting and Stacking classifiers for superior predictive performance.
 
+Note: In case the Notebook doesn't renders in GitHub - [![render nbviewer](https://img.shields.io/badge/render-nbviewer-orange.svg)](https://nbviewer.jupyter.org/github/RMDS-GroupProject/spaceship_titanic/blob/main/assignment3_grp3.ipynb).
+
 ## Dataset Overview
 
 The Spaceship Titanic dataset contains passenger information with the following characteristics:
@@ -101,7 +103,7 @@ shap==0.48.0
    ```bash
    jupyter notebook assignment3_grp3.ipynb
    ```
-   Note: In case the Notebook doesn't renders in GitHub, paste this link-[https://github.com/RMDS-GroupProject/spaceship_titanic/blob/main/assignment3_grp3.ipynb](https://github.com/RMDS-GroupProject/spaceship_titanic/blob/main/assignment3_grp3.ipynb) - [![render nbviewer](https://img.shields.io/badge/render-nbviewer-orange.svg)](https://nbviewer.jupyter.org/).
+
 4. **Execute the training pipeline**
    - Load and preprocess the data
    - Run hyperparameter optimization for all models
