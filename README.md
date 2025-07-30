@@ -23,7 +23,7 @@ The dataset exhibits balanced classes with 50.4% transported vs. 49.6% not trans
 
 ```
 spaceship_titanic/
-├── assignment3_grp3.ipynb       # Main training and evaluation notebook
+├── assignment3_grp3.ipynb       # Main training and evaluation notebook [Final Submission]
 ├── main_notebook.ipynb          # Testing training and evaluation notebook
 ├── README.md                    # This file
 ├── result.csv                   # Trained Model saved with metrics and parameters
