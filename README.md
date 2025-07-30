@@ -23,7 +23,8 @@ The dataset exhibits balanced classes with 50.4% transported vs. 49.6% not trans
 
 ```
 spaceship_titanic/
-├── main_notebook.ipynb          # Main training and evaluation notebook
+├── assignment3_grp3.ipynb       # Main training and evaluation notebook
+├── main_notebook.ipynb          # Testing training and evaluation notebook
 ├── README.md                    # This file
 ├── result.csv                   # Trained Model saved with metrics and parameters
 ├── Data/
@@ -98,7 +99,7 @@ shap==0.48.0
 
 3. **Run the main notebook**
    ```bash
-   jupyter notebook main_notebook.ipynb
+   jupyter notebook assignment3_grp3.ipynb
    ```
 
 4. **Execute the training pipeline**
