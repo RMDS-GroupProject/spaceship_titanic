@@ -48,15 +48,15 @@ The implementation includes:
 ## Model Configuration
 
 ### Base Models Training:
-- **Optimization Trials**: 100 trials per model using Optuna
-- **Cross-Validation**: 5-fold stratified CV for robust evaluation
+- **Optimization Trials**: 20 trials per model using Optuna
+- **Cross-Validation**: 3-fold stratified CV for robust evaluation
 - **Scoring Metrics**: Multiple metrics with accuracy as primary objective
 - **Random State**: 42 for reproducible results
 
 ### Ensemble Configuration:
 - **Voting Classifier**: Soft voting with top 3 performing models
 - **Stacking Classifier**: 3-fold CV with passthrough=True
-- **Final Estimator**: Optimized Logistic Regression with L1 regularization
+- **Final Estimator**: Logistic Regression with L2 regularization
 
 ## Key Findings from EDA
 
