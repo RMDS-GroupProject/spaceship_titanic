@@ -41,7 +41,7 @@ The implementation includes:
 - **Comprehensive EDA**: Statistical analysis, correlation studies, and feature distribution analysis
 - **Advanced Preprocessing**: Missing value imputation, feature engineering, and categorical encoding
 - **Hyperparameter Optimization**: Optuna-based tuning for all base classifiers
-- **Multi-Metric Evaluation**: Accuracy, Precision, Recall, F1-Score, and ROC-AUC
+- **Multi-Metric Evaluation**: Accuracy, Precision, Recall, F1-Score
 - **Ensemble Learning**: Voting and Stacking classifiers with optimized meta-learners
 - **Cross-Validation**: Robust k-fold validation for unbiased performance estimation
 
