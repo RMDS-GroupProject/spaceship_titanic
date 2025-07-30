@@ -101,7 +101,7 @@ shap==0.48.0
    ```bash
    jupyter notebook assignment3_grp3.ipynb
    ```
-
+   Note: In case the Notebook doesn't renders in GitHub, paste this link-[https://github.com/RMDS-GroupProject/spaceship_titanic/blob/main/assignment3_grp3.ipynb](https://github.com/RMDS-GroupProject/spaceship_titanic/blob/main/assignment3_grp3.ipynb) [here](https://nbviewer.jupyter.org/)
 4. **Execute the training pipeline**
    - Load and preprocess the data
    - Run hyperparameter optimization for all models
