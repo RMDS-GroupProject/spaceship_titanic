@@ -1,6 +1,9 @@
-# Spaceship Titanic - Passenger Transportation Prediction
+# Spaceship Titanic - Passenger Transportation Prediction 
+
+[![render nbviewer](https://img.shields.io/badge/render-nbviewer-orange.svg)](https://nbviewer.jupyter.org/github/RMDS-GroupProject/spaceship_titanic/blob/main/assignment3_grp3.ipynb)
 
 This project implements a comprehensive machine learning solution for predicting passenger transportation outcomes in the Spaceship Titanic dataset. The implementation features advanced hyperparameter optimization using Optuna, multiple classifier training, and ensemble methods including Voting and Stacking classifiers for superior predictive performance.
+
 
 ## Dataset Overview
 
@@ -23,7 +26,8 @@ The dataset exhibits balanced classes with 50.4% transported vs. 49.6% not trans
 
 ```
 spaceship_titanic/
-├── main_notebook.ipynb          # Main training and evaluation notebook
+├── assignment3_grp3.ipynb       # Main training and evaluation notebook [Final Submission]
+├── main_notebook.ipynb          # Testing training and evaluation notebook
 ├── README.md                    # This file
 ├── result.csv                   # Trained Model saved with metrics and parameters
 ├── Data/
@@ -40,22 +44,22 @@ The implementation includes:
 - **Comprehensive EDA**: Statistical analysis, correlation studies, and feature distribution analysis
 - **Advanced Preprocessing**: Missing value imputation, feature engineering, and categorical encoding
 - **Hyperparameter Optimization**: Optuna-based tuning for all base classifiers
-- **Multi-Metric Evaluation**: Accuracy, Precision, Recall, F1-Score, and ROC-AUC
+- **Multi-Metric Evaluation**: Accuracy, Precision, Recall, F1-Score
 - **Ensemble Learning**: Voting and Stacking classifiers with optimized meta-learners
 - **Cross-Validation**: Robust k-fold validation for unbiased performance estimation
 
 ## Model Configuration
 
 ### Base Models Training:
-- **Optimization Trials**: 100 trials per model using Optuna
-- **Cross-Validation**: 5-fold stratified CV for robust evaluation
+- **Optimization Trials**: 20 trials per model using Optuna
+- **Cross-Validation**: 3-fold stratified CV for robust evaluation
 - **Scoring Metrics**: Multiple metrics with accuracy as primary objective
 - **Random State**: 42 for reproducible results
 
 ### Ensemble Configuration:
 - **Voting Classifier**: Soft voting with top 3 performing models
 - **Stacking Classifier**: 3-fold CV with passthrough=True
-- **Final Estimator**: Optimized Logistic Regression with L1 regularization
+- **Final Estimator**: Logistic Regression with L2 regularization
 
 ## Key Findings from EDA
 
@@ -98,7 +102,7 @@ shap==0.48.0
 
 3. **Run the main notebook**
    ```bash
-   jupyter notebook main_notebook.ipynb
+   jupyter notebook assignment3_grp3.ipynb
    ```
 
 4. **Execute the training pipeline**
